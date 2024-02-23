@@ -3,8 +3,8 @@ import os
 from flask import Blueprint, render_template
 
 configs = {
-    "STATIC_LOC" : "../../public",
-    "TEMPLATE_LOC" : "../../public"
+    "STATIC_LOC" : "../../build/static",
+    "TEMPLATE_LOC" : "../../build"
 }
 
 def create_blueprint(name: str, prefix:str = "") -> Blueprint:

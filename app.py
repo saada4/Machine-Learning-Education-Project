@@ -3,7 +3,7 @@ from app_resources import all_views
 from flask_cors import CORS
 
 def create_app() -> Flask:
-    app = Flask(__name__, static_folder="./public", template_folder="./public")
+    app = Flask(__name__, static_folder="./build/static", template_folder="./build")
     app.config.from_pyfile('./app/config.py', silent=True)
     # set CORS on the Flask API
     _ = CORS(app, resources={r"/api/*": {"origins": "*"}})

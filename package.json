@@ -1,7 +1,7 @@
 {
     "name": "machine-learning-education-project",
     "version": "0.1.0",
-    "homepage": "https://github.com/saada4/Machine-Learning-Education-Project",
+    "homepage": "",
     "private": true,
     "dependencies": {
         "@babel/plugin-proposal-private-property-in-object": "",

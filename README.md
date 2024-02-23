@@ -8,7 +8,7 @@ run ```python -m venv venv``` to set up the virtual environment
 Install flask, flask-cors.
 
 ### React
-```npm run install``` to install dependencies
+```npm install``` to install dependencies
 
 ## How to Run
 For now, there are two ways (just to get the setup)
