@@ -11,8 +11,13 @@ Install flask, flask-cors.
 ```npm install``` to install dependencies
 
 ## How to Run
-For now, there are two ways (just to get the setup)
+### First Time
+Enable file permissions by pasting this ```chmod 777 run```
+### Every other time
+1. ./run
 
+What does this do?
+Compiles te web app, and Flask runs that app
 
 
 Credit for the structure of the npm setup goes to github.com/varuns10
