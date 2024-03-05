@@ -8,6 +8,6 @@ main_views = create_blueprint("main")
 
 @main_views.route("/")
 def do_main_home():    
-    id_ = db.insert_one({"val" : "test2"})
-    print(f"{type(id_)} {id_}")
+    ids = db.insert_many([{"val" : "test3"}, {"val" : "test4"}])
+    print(f"{type(ids)} {ids}")
     return render_template("index.html")
