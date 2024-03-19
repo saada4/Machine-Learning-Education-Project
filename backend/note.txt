@@ -7,13 +7,20 @@ Run model command:
 bash scripts/run_test_zeroshot.sh /data5/haozhen/BIKE/configs/hmdb51/hmdb_zero_shot.yaml /data5/haozhen/BIKE/checkpoints/k400-vit-b-16-f8.pt
 
 Host API:
-flask run --host=130.126.139.253 --port=3000
+conda activate BIKE
+python -m flask run --host=130.126.139.253 --port=3000
 
 Host server for video http link:
 - mkdir data
 - place video under /data 
 - cd /data
-- run python -m http.server 8000
+- run python -m http.server 8080
 
 Test download video function:
 python3 request.py
+
+Util: video_postprocess.py
+
+
+FOR FRONTEND
+sample request for backend model API is in request.py
